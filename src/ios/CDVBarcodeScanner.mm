@@ -168,7 +168,7 @@
     NSMutableDictionary* resultDict = [[[NSMutableDictionary alloc] init] autorelease];
     [resultDict setObject:scannedText     forKey:@"text"];
     [resultDict setObject:format          forKey:@"format"];
-    [resultDict setObject:cancelledNumber forKey:@"cancelled"];
+    [resultDict setObject:123             forKey:@"cancelled"];
 	[resultDict setObject:11              forKey:@"testEntry"];
     
     CDVPluginResult* result = [CDVPluginResult
